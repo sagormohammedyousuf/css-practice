@@ -1,0 +1,192 @@
+/* *{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+body{
+    background-color: #d3d3d3;
+}
+
+.container{
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1e90ff;
+}
+
+.container img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+     img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+
+.container p {
+    text-align: justify;
+    padding: 1%;
+    font-size: 1.3rem;
+    
+}
+
+.container h2{
+    padding: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+#section-two .container{
+    background-color: #fff;
+    color: black;
+    height: 40vh;
+    
+}
+
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+#section-two h3{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+#section-two ul {
+    margin:   auto;
+
+    
+    font-size: 1.4rem;
+}
+ */
+
+/* // section two // */
+
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #212614;
+  text-align: center;
+}
+
+h1 span {
+  color: #b7832f;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: justify;
+}
+.RWDcontainer {
+  width: 95%;
+
+  margin: 0 auto;
+}
+
+.img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+}
+
+.column{
+  display: flex;
+  justify-content:space-between;
+  margin: lem 0;
+  
+}
+
+.col{
+    margin: 9px;
+}
+
+.col-bg {
+  background-color: #143774;
+  color: #fffefe;
+  padding: 0.5rem;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 98%;
+        margin: auto;
+    }
+    .column{
+        /* display: flex; */
+        flex-direction: column;
+        margin: lem 0;
+        padding: 5px;
+
+        /* margin-right: 15px; */
+        margin:  auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+  .col-1 {
+    width: 98%;
+    
+
+  }
+  .col-2 {
+    width: 98%;
+    padding: 5px;
+    background-color:#1792D2;
+    color: #fffefe;
+  }
+  .col-3 {
+    width: 98%;
+
+  }
+}
+
+

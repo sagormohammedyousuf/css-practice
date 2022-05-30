@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.nav{
+    height: 85px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#292828;
+    
+    
+    
+}
+
+@media screen and (max-width: 768px){
+  .nav{
+      height: 35px;
+      width: 100%;
+      top: 0;
+      position:sticky;
+    
+    background-color: rgb(206, 69, 69);
+      
+  }
+}
+
+ul{
+    display:flex;
+   
+    
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display:flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 762px) {
+    .a{
+       
+      font-size: 10px;
+      padding: 10px;
+      
+      
+      
+  }
+.wrapper{
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows: repeat(12 , 1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 15px;
+    width: 1400px;
+    
+    margin:  auto;
+    justify-content: space-around;
+    
+
+}
+
+@media screen and (max-width: 762px) {
+    .wrapper{
+        /* grid-template-columns: repeat(); */
+        /* grid-template-rows: auto; */
+        display:grid;
+        margin: auto;
+        justify-content:center;
+        align-items:center;
+
+    }
+  }
+.gridItem{
+    display:grid;
+    grid-column: span 4;
+    grid-row: span 4;
+    align-items:center;
+    justify-content: center;
+    text-align: justify;
+    padding: 0px;
+    width:400px;
+    height: 380px;
+    background-color:lightgray;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* @media screen and (max-width:762px) {
+ .gridItem{
+     width: 47%;
+    grid-column: span 12;
+    grid-row: span 12;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+ }
+} */
+
+/* .gridItem:hover{
+    
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      
+} */
+
+/* img{
+    
+    top: 0;
+    height: 180px;
+    width: 380px;
+    object-fit: cover;
+    margin: auto;
+} */
+/* 
+@media screen and (max-width: 762px) {
+    img{
+        
+        object-fit: cover;
+    
+    }
+} */
+
+.cart-text{
+
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: justify;
+    
+
+}
+
+
+
+    /* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */

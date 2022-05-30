@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 80%;
+    
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 55px;
+    width: 100%;
+   
+    color: #000000;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+ 
+    
+    
+}
+
+img{
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+
+    border:  3px solid rgb(88, 87, 83);
+    border-radius: 5px;
+}

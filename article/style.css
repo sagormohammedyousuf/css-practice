@@ -1,0 +1,17 @@
+.container {
+    width: 820px;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+p{
+    text-align: justify;
+}
+
+img{
+    width: 400px;
+    margin: 10px;
+    float: left;
+    
+    
+}

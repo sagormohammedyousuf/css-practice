@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+form{
+    width: 400px;
+    height: 300px;
+    background: #ddd;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+form:hover{
+    box-shadow: 5px 9px 9px gray;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    
+}
+input{
+    width: 250px;
+    height: 35px;
+    margin: 5px;
+    outline: none;
+    margin:  auto;
+
+    
+    
+}
+
+input:focus{
+    border: 2px solid #9b690b;
+    border-radius: 3px;
+}
+
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+h1::before{
+    content: "Hi ";
+}
+
+p{
+    text-align: justify;
+}
+
+p::selection{
+    background-color: #ddd;
+}

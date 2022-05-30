@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 820px;
+    height: 100vh;
+    background-color: #ddd;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+
+.red{
+   
+    background-color: red;
+}
+
+.green{
+    
+    background-color: rgb(26, 100, 12);
+}
+
+.orange{
+    
+    background-color: orange;
+    /* align-self: center;
+ */
+}
+.purple{
+    background-color: purple;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;  
+      
+}
+

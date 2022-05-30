@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Trade Gothic LT Std" ;
+    src: url(./trade-gothic-lt-std-regular_AhjzM/TradeGothicLTStdRegular/TradeGothicLTStdRegular.otf);
+}
+
+header {
+    height: 40px;
+    background-color: #000;
+}
+.container{
+
+    height: 85px;
+    background-color:#292828;
+}
+
+.wrapper{
+    width: 1280px;
+    height: 85px;
+    display:flex;
+    
+    margin: auto;
+    text-align: left;
+    
+}
+
+img{
+    cursor: pointer;
+    height: 86px;
+}
+
+nav{
+    display:flex;;
+    align-items: center;
+    /*width: 130.665px;*/
+    
+    
+
+}
+
+ul{
+    display:flex;
+    list-style: none;
+}
+
+li{
+   
+    /* padding: 0 0 0 40px; */
+    padding: 0 0 0 30px;
+    
+    
+}
+
+ li a{
+    color: #fff;
+    font-family: "Trade Gothic LT Std" ;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height:24px;
+    text-transform: uppercase;
+    font-style: normal;
+    cursor: pointer;
+    display:flex;
+
+    letter-spacing:none;
+    
+    /* margin: 30px 0 0 0; */
+
+}
+
+ a:hover .animation{
+    transform: rotate(180deg);
+  
+   
+   
+}
+
+
+
+.icon{
+    flex: 1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    height: 65px;
+    width: 60px;
+   
+    color: #fff;
+    padding: 0 16px 0 16px;
+    margin: 10px 0 0 0;
+}
+
+.cart{
+    font-size: 10px;
+}
+
+
+
+
+
+
+    
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 65;
+  color: #fff;
+  font-size: 64px;
+  line-height:64px
+  
+    
+    
+    
+}
+
+.animation{
+    font-size: 10px;
+    transition: transform 0.5s;
+}
+
+.animation:hover{
+    /* transform: rotate(180deg); */
+}
+
+/* #a{
+    display: block;
+    
+    margin: auto;
+    display: block;
+    margin-left: 0;
+  
+    /* height: 65px;
+    width: 60px;
+     */
+  
+
+   
